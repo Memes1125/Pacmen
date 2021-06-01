@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -33,7 +34,7 @@ namespace Pac_man
         Rect pacmanHitBox;
 
         int ghostSpeed = 10;
-        int ghostMoveStep = 130;
+        int ghostMoveStep = 80;
         int currentGhostStep;
         int score = 0;
 
@@ -48,7 +49,7 @@ namespace Pac_man
 
         private void CanvasKeyDown(object sender, KeyEventArgs e)
         {
-            if(e.Key == Key.Left && noLeft == false)
+            if (e.Key == Key.Left && noLeft == false)
             {
                 goRight = goUp = goDown = false;
                 noRight = noUp = noDown = false;
@@ -58,7 +59,7 @@ namespace Pac_man
                 pacman.RenderTransform = new RotateTransform(-180, pacman.Width / 2, pacman.Height / 2);
             }
 
-            if(e.Key == Key.Right && noRight == false)
+            if (e.Key == Key.Right && noRight == false)
             {
                 noLeft = noUp = noDown = false;
                 goLeft = goUp = goDown = false;
@@ -68,7 +69,7 @@ namespace Pac_man
                 pacman.RenderTransform = new RotateTransform(0, pacman.Width / 2, pacman.Height / 2);
             }
 
-            if(e.Key == Key.Up && noUp == false)
+            if (e.Key == Key.Up && noUp == false)
             {
                 noRight = noDown = noLeft = false;
                 goRight = goDown = goLeft = false;
@@ -78,7 +79,7 @@ namespace Pac_man
                 pacman.RenderTransform = new RotateTransform(-90, pacman.Width / 2, pacman.Height / 2);
             }
 
-            if(e.Key == Key.Down && noDown == false)
+            if (e.Key == Key.Down && noDown == false)
             {
                 noUp = noLeft = noRight = false;
                 goUp = goLeft = goRight = false;
@@ -141,12 +142,12 @@ namespace Pac_man
             }
 
 
-            if(goDown && Canvas.GetTop(pacman) + 80 > Application.Current.MainWindow.Height)
+            if (goDown && Canvas.GetTop(pacman) + 80 > Application.Current.MainWindow.Height)
             {
                 noDown = true;
                 goDown = false;
             }
-            if(goUp && Canvas.GetTop(pacman) < 1)
+            if (goUp && Canvas.GetTop(pacman) < 1)
             {
                 noUp = true;
                 goUp = false;
@@ -166,15 +167,15 @@ namespace Pac_man
             pacmanHitBox = new Rect(Canvas.GetLeft(pacman), Canvas.GetTop(pacman), pacman.Width, pacman.Height);
 
 
-            foreach (var x in MyCanvas.Children.OfType<Rectangle>()) 
+            foreach (var x in MyCanvas.Children.OfType<Rectangle>())
             {
                 Rect hitBox = new Rect(Canvas.GetLeft(x), Canvas.GetTop(x), x.Width, x.Height);
 
 
 
-                if((string)x.Tag == "wall")
+                if ((string)x.Tag == "wall")
                 {
-                    if(goLeft == true && pacmanHitBox.IntersectsWith(hitBox))
+                    if (goLeft == true && pacmanHitBox.IntersectsWith(hitBox))
                     {
                         Canvas.SetLeft(pacman, Canvas.GetLeft(pacman) + 10);
                         noLeft = true;
@@ -201,9 +202,9 @@ namespace Pac_man
                 }
 
 
-                if((string) x.Tag == "coin")
+                if ((string)x.Tag == "coin")
                 {
-                    if(pacmanHitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    if (pacmanHitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
                     {
                         x.Visibility = Visibility.Hidden;
                         score++;
@@ -211,11 +212,11 @@ namespace Pac_man
                 }
 
 
-                if((string)x.Tag == "ghost")
+                if ((string)x.Tag == "ghost")
                 {
                     if (pacmanHitBox.IntersectsWith(hitBox))
                     {
-                        GameOver("Лох, умер от призрака");
+                       // GameOver("Лох, умер от призрака");
                     }
 
 
@@ -230,28 +231,29 @@ namespace Pac_man
 
                     currentGhostStep--;
 
-                    if (currentGhostStep < 1)
+                    if(currentGhostStep < 1)
                     {
                         currentGhostStep = ghostMoveStep;
                         ghostSpeed = -ghostSpeed;
                     }
-
-
-
                 }
-
-
             }
+
 
 
             if(score == 282)
             {
-                
-                GameOver("красава, лайк");
 
+                Level2 lv = new Level2();
+                lv.ShowDialog();
+                this.Close();
+                return;
             }
+            
 
         }
+
+
 
         private void GameOver(string message)
         {
@@ -262,10 +264,8 @@ namespace Pac_man
             Application.Current.Shutdown();
         }
 
-
        
-
-
-
+            
+        
     }
 }
