@@ -15,3 +15,5 @@ C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\Pac-man.exe
 C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\Pac-man.pdb
 C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\Level2.g.cs
 C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\Level2.baml
+C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\MainGameWindow.g.cs
+C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\MainGameWindow.baml

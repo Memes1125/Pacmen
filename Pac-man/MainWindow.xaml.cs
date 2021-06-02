@@ -38,7 +38,10 @@ namespace Pac_man
         int currentGhostStep;
         int score = 0;
 
-
+        private void Click_to_lvl(object sender, RoutedEventArgs e)
+        {
+            Nexlevel();
+        }
 
         public MainWindow()
         {
@@ -216,7 +219,7 @@ namespace Pac_man
                 {
                     if (pacmanHitBox.IntersectsWith(hitBox))
                     {
-                       // GameOver("Лох, умер от призрака");
+                        // GameOver("Лох, умер от призрака");
                     }
 
 
@@ -231,7 +234,7 @@ namespace Pac_man
 
                     currentGhostStep--;
 
-                    if(currentGhostStep < 1)
+                    if (currentGhostStep < 1)
                     {
                         currentGhostStep = ghostMoveStep;
                         ghostSpeed = -ghostSpeed;
@@ -241,14 +244,13 @@ namespace Pac_man
 
 
 
-            if(score == 282)
+            if (score == 282)
             {
 
-                Level2 lv = new Level2();
-                lv.ShowDialog();
-                this.Close();
-                return;
+                next.Opacity = 100;
+                    
             }
+               
             
 
         }
@@ -264,7 +266,13 @@ namespace Pac_man
             Application.Current.Shutdown();
         }
 
-       
+        private void Nexlevel()
+        {
+            Level2 lv = new Level2();
+            lv.Show();
+
+            Close();
+        }
             
         
     }

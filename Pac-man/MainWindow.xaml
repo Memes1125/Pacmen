@@ -355,9 +355,10 @@
         <Rectangle Name="redGuy" Tag="ghost" Width="30" Height="30" Fill="Red" Canvas.Left="35" Canvas.Top="504" />
         <Rectangle Name="orangeGuy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="348" Canvas.Top="127" />
         <Rectangle Name="pinkGuy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="403" Canvas.Top="127" />
-        
+
 
         <!--#endregion-->
 
+        <Button Name="next" Click="Click_to_lvl" Height="78" Width="259" Canvas.Top="188" Canvas.Left="263" Opacity="0" Content="Второй уровень ждёт тебя"/>
     </Canvas>
 </Window>
