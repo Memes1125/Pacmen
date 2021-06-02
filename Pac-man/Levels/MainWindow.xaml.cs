@@ -40,7 +40,9 @@ namespace Pac_man
 
         private void Click_to_lvl(object sender, RoutedEventArgs e)
         {
-            Nexlevel();
+            MainGameWindow mgw = new MainGameWindow();
+            mgw.Show();
+            Close();
         }
 
         public MainWindow()
@@ -219,7 +221,7 @@ namespace Pac_man
                 {
                     if (pacmanHitBox.IntersectsWith(hitBox))
                     {
-                        // GameOver("Лох, умер от призрака");
+                        //GameOver("Лох, умер от призрака");
                     }
 
 

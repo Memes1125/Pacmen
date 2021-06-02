@@ -5,10 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pac_man"
         mc:Ignorable="d"
-        Title="Menu" Height="300" Width="300">
+        Title="Menu" Height="300" Width="300" ResizeMode="NoResize">
     <Canvas>
-        <Button Name="game" Content="Играть" Canvas.Left="80" Canvas.Top="57" Width="117" Height="20" />
-        <Button Name="Levels" Content="Уровни" Canvas.Left="80" Canvas.Top="121" Width="117" Height="20" />
-        <Button Name="exit" Content="Выход" Canvas.Left="80" Canvas.Top="186" Width="117" Height="20" />
+        <Canvas.Background>
+            <ImageBrush ImageSource="Images/pe2.jpg"/>
+        </Canvas.Background>
+        <Button Name="game" Content="Играть" Canvas.Left="80" Canvas.Top="51.619" Width="117" Height="20" Click="Click_game">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/pixil-frame-0.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="levels" Content="Уровни" Canvas.Left="80" Canvas.Top="125.036" Width="117" Height="20" Click="Click_levels">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/pixil-frame-0.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="exit" Content="Выход" Canvas.Left="80" Canvas.Top="196.09" Width="117" Height="20" Click="Click_exit">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/pixil-frame-0.png"/>
+            </Button.Background>
+        </Button>
     </Canvas>
 </Window>

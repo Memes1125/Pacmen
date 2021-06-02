@@ -23,5 +23,22 @@ namespace Pac_man
         {
             InitializeComponent();
         }
+
+        private void Click_game(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Извини, но данная кнопка плохо работает");
+            
+        }
+
+        private void Click_levels(object sender, RoutedEventArgs e)
+        {
+            ViewLevels vl = new ViewLevels();
+            vl.Show();
+        }
+
+        private void Click_exit(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

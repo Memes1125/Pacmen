@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pac_man"
         mc:Ignorable="d"
-        Title="Pac-man" Height="600" Width="800">
+        Title="Pac-man" Height="600" Width="800" ResizeMode="NoResize">
     <Canvas Name="MyCanvas" KeyDown="CanvasKeyDown" Focusable="True" Background="Black">
 
         <Label FontSize="20" Name="txtScore" Foreground="White" Content="Score: 0" />
 
-
+        <Button Name="next" Click="Click_to_lvl" Height="27" Width="231" Canvas.Top="88" Canvas.Left="463" Opacity="0" Content="Нажми на меня , попади в меню"/>
         <Rectangle Name="pacman" Width="30" Height="30" Fill="Yellow" Canvas.Left="490" Canvas.Top="188" />
 
 
@@ -359,6 +359,6 @@
 
         <!--#endregion-->
 
-        <Button Name="next" Click="Click_to_lvl" Height="78" Width="259" Canvas.Top="188" Canvas.Left="263" Opacity="0" Content="Второй уровень ждёт тебя"/>
+
     </Canvas>
 </Window>

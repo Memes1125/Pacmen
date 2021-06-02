@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\pokim\source\repos\Pac-man\Pac-man\App.xaml
-3-1511866015
+4-731215388
 
-8335208173
+9-1522835697
 13-1505183044
-Level2.xaml;MainGameWindow.xaml;MainWindow.xaml;
+Levels\Level2.xaml;MainGameWindow.xaml;Levels\MainWindow.xaml;ViewLevels.xaml;
 
-False
+True
 
