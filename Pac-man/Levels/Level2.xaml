@@ -6,7 +6,31 @@
         xmlns:local="clr-namespace:Pac_man"
         mc:Ignorable="d"
         Title="Level2" Height="450" Width="800" ResizeMode="NoResize" >
-    <Grid>
-        
-    </Grid>
+    <Canvas Name="MyCanvas" KeyDown="CanvasKeyDown" Focusable="True" Background="Black">
+        <Label FontSize="20" Name="txtScore" Foreground="White" Content="Score: 0" />
+
+        <Button Name="next" Click="Click_to_lvl" Height="27" Width="231" Canvas.Top="88" Canvas.Left="463" Opacity="100" Content="Нажми на меня , попади в меню"/>
+        <Rectangle Name="pacman" Width="30" Height="30" Fill="Yellow" Canvas.Left="403" Canvas.Top="188" />
+
+
+        <!--#region Ghost-->
+
+        <Rectangle Name="redGuy" Tag="ghost" Width="30" Height="30" Fill="Red" Canvas.Left="348" Canvas.Top="188"  />
+        <Rectangle Name="orangeGuy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="348" Canvas.Top="127" />
+        <Rectangle Name="pinkGuy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="403" Canvas.Top="127" />
+
+
+        <!--#endregion-->
+
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="680" Canvas.Left="104" Canvas.Top="10"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="13" Width="114" Canvas.Left="10" Canvas.Top="42"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="45" Width="20" Canvas.Left="104" Canvas.Top="10"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="369" Width="15" Canvas.Left="10" Canvas.Top="42"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="774" Canvas.Left="10" Canvas.Top="391"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="401" Width="20" Canvas.Left="764" Canvas.Top="10"/>
+
+
+
+
+    </Canvas>
 </Window>

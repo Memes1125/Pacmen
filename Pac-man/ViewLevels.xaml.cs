@@ -26,7 +26,7 @@ namespace Pac_man
 
         private void lvl1(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Извини брат, там занятный баг при переходе"); 
         }
 
         private void lvl2(object sender, RoutedEventArgs e)

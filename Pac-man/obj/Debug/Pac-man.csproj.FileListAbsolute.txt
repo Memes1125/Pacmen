@@ -18,3 +18,4 @@ C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\Levels\MainWindow.g.cs
 C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\ViewLevels.g.cs
 C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\Levels\MainWindow.baml
 C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\ViewLevels.baml
+C:\Users\pokim\source\repos\Pac-man\Pac-man\obj\Debug\Pac-man.csprojAssemblyReference.cache

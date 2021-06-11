@@ -8,18 +8,20 @@
         Title="ViewLevels" Height="300" Width="300" ResizeMode="NoResize">
     <ScrollViewer>
         <Canvas>
-
-            <Button Height="29" Width="26" Canvas.Left="19" Canvas.Top="10" Click="lvl1" Content="1" Foreground="White">
+            <Canvas.Background>
+                <ImageBrush ImageSource="Images/pixil-frame-8.png"/>
+            </Canvas.Background>
+            <Button Height="29" Width="26" Canvas.Left="55" Canvas.Top="10" Click="lvl1" Content="1" Foreground="White">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>
             </Button>
-            <Button Height="29" Width="26" Canvas.Left="72" Canvas.Top="75" Click="lvl7" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
+            <Button Height="29" Width="26" Canvas.Left="86" Canvas.Top="75" Click="lvl7" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>
             </Button>
-            <Button Height="29" Width="26" Canvas.Left="122" Canvas.Top="75" Click="lvl8" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
+            <Button Height="29" Width="26" Canvas.Left="139" Canvas.Top="75" Click="lvl8" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>
@@ -29,12 +31,12 @@
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>
             </Button>
-            <Button Height="29" Width="26" Canvas.Left="221" Canvas.Top="75" Click="lvl10" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
+            <Button Height="29" Width="26" Canvas.Left="231" Canvas.Top="75" Click="lvl10" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>
             </Button>
-            <Button Height="29" Width="26" Canvas.Left="221" Canvas.Top="10" Click="lvl5" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
+            <Button Height="29" Width="26" Canvas.Left="231" Canvas.Top="10" Click="lvl5" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>
@@ -44,17 +46,17 @@
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>
             </Button>
-            <Button Height="29" Width="26" Canvas.Left="122" Canvas.Top="10" Click="lvl3" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
+            <Button Height="29" Width="26" Canvas.Left="139" Canvas.Top="10" Click="lvl3" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>
             </Button>
-            <Button Height="29" Width="26" Canvas.Left="72" Canvas.Top="10" Click="lvl2" Content="2" Foreground="White">
+            <Button Height="29" Width="26" Canvas.Left="86" Canvas.Top="10" Click="lvl2" Content="2" Foreground="White">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>
             </Button>
-            <Button Height="29" Width="26" Canvas.Left="19" Canvas.Top="75" Click="lvl6" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
+            <Button Height="29" Width="26" Canvas.Left="55" Canvas.Top="75" Click="lvl6" Content="Soon" FontFamily="Ink Free" FontSize="12" Foreground="White">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/pixil-frame-5.png"/>
                 </Button.Background>

@@ -40,6 +40,62 @@ namespace Pac_man {
     /// </summary>
     public partial class Level2 : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 9 "..\..\..\Levels\Level2.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Canvas MyCanvas;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 10 "..\..\..\Levels\Level2.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Label txtScore;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 12 "..\..\..\Levels\Level2.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button next;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 13 "..\..\..\Levels\Level2.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Shapes.Rectangle pacman;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 18 "..\..\..\Levels\Level2.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Shapes.Rectangle redGuy;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 19 "..\..\..\Levels\Level2.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Shapes.Rectangle orangeGuy;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 20 "..\..\..\Levels\Level2.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Shapes.Rectangle pinkGuy;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +124,42 @@ namespace Pac_man {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.MyCanvas = ((System.Windows.Controls.Canvas)(target));
+            
+            #line 9 "..\..\..\Levels\Level2.xaml"
+            this.MyCanvas.KeyDown += new System.Windows.Input.KeyEventHandler(this.CanvasKeyDown);
+            
+            #line default
+            #line hidden
+            return;
+            case 2:
+            this.txtScore = ((System.Windows.Controls.Label)(target));
+            return;
+            case 3:
+            this.next = ((System.Windows.Controls.Button)(target));
+            
+            #line 12 "..\..\..\Levels\Level2.xaml"
+            this.next.Click += new System.Windows.RoutedEventHandler(this.Click_to_lvl);
+            
+            #line default
+            #line hidden
+            return;
+            case 4:
+            this.pacman = ((System.Windows.Shapes.Rectangle)(target));
+            return;
+            case 5:
+            this.redGuy = ((System.Windows.Shapes.Rectangle)(target));
+            return;
+            case 6:
+            this.orangeGuy = ((System.Windows.Shapes.Rectangle)(target));
+            return;
+            case 7:
+            this.pinkGuy = ((System.Windows.Shapes.Rectangle)(target));
+            return;
+            }
             this._contentLoaded = true;
         }
     }

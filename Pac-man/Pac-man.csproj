@@ -133,5 +133,8 @@
   <ItemGroup>
     <Resource Include="Images\pixil-frame-5.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\pixil-frame-8.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
