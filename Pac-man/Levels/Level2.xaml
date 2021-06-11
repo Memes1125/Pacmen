@@ -9,15 +9,15 @@
     <Canvas Name="MyCanvas" KeyDown="CanvasKeyDown" Focusable="True" Background="Black">
         <Label FontSize="20" Name="txtScore" Foreground="White" Content="Score: 0" />
 
-        <Button Name="next" Click="Click_to_lvl" Height="27" Width="231" Canvas.Top="88" Canvas.Left="463" Opacity="100" Content="Нажми на меня , попади в меню"/>
-        <Rectangle Name="pacman" Width="30" Height="30" Fill="Yellow" Canvas.Left="403" Canvas.Top="188" />
+        <Button Name="next" Click="Click_to_lvl" Height="27" Width="98" Canvas.Top="246" Canvas.Left="490" Opacity="100" Content="На сегодня всё"/>
+        <Rectangle Name="pacman" Width="30" Height="30" Fill="Yellow" Canvas.Left="666" Canvas.Top="356" />
 
 
         <!--#region Ghost-->
 
-        <Rectangle Name="redGuy" Tag="ghost" Width="30" Height="30" Fill="Red" Canvas.Left="348" Canvas.Top="188"  />
-        <Rectangle Name="orangeGuy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="348" Canvas.Top="127" />
-        <Rectangle Name="pinkGuy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="403" Canvas.Top="127" />
+        <Rectangle Name="redGuy" Tag="ghost" Width="30" Height="30" Fill="Red" Canvas.Left="636" Canvas.Top="356"  />
+        <Rectangle Name="orangeGuy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="545" Canvas.Top="80" />
+        <Rectangle Name="pinkGuy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="337" Canvas.Top="62" />
 
 
         <!--#endregion-->
@@ -28,6 +28,40 @@
         <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="369" Width="15" Canvas.Left="10" Canvas.Top="42"/>
         <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="774" Canvas.Left="10" Canvas.Top="391"/>
         <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="401" Width="20" Canvas.Left="764" Canvas.Top="10"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="108" Canvas.Left="87" Canvas.Top="333"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="108" Canvas.Left="593" Canvas.Top="333"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="118" Width="13" Canvas.Left="182" Canvas.Top="227"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="118" Width="13" Canvas.Left="593" Canvas.Top="227"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="38" Width="13" Canvas.Left="664" Canvas.Top="235"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="38" Width="13" Canvas.Left="111" Canvas.Top="235"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="37" Canvas.Left="87" Canvas.Top="261"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="37" Canvas.Left="664" Canvas.Top="261"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="424" Canvas.Left="182" Canvas.Top="227"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="108" Canvas.Left="182" Canvas.Top="333"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="108" Canvas.Left="498" Canvas.Top="333"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="118" Width="13" Canvas.Left="388" Canvas.Top="227"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="52" Width="13" Canvas.Left="472" Canvas.Top="227"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="52" Width="13" Canvas.Left="302" Canvas.Top="227"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="37" Width="13" Canvas.Left="664" Canvas.Top="202"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="37" Width="13" Canvas.Left="111" Canvas.Top="202"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="55" Width="13" Canvas.Left="472" Canvas.Top="184"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="55" Width="13" Canvas.Left="302" Canvas.Top="184"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="37" Canvas.Left="87" Canvas.Top="202"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="37" Canvas.Left="664" Canvas.Top="202"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="108" Canvas.Left="87" Canvas.Top="133"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="106" Width="13" Canvas.Left="182" Canvas.Top="133"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="108" Canvas.Left="182" Canvas.Top="133"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="108" Canvas.Left="498" Canvas.Top="133"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="106" Width="13" Canvas.Left="593" Canvas.Top="133"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="108" Canvas.Left="593" Canvas.Top="133"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="135" Width="13" Canvas.Left="388" Canvas.Top="10"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="37" Canvas.Left="364" Canvas.Top="133"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="12" Width="37" Canvas.Left="388" Canvas.Top="133"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="55" Width="13" Canvas.Left="593" Canvas.Top="10"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="55" Width="13" Canvas.Left="182" Canvas.Top="10"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="55" Width="13" Canvas.Left="302" Canvas.Top="10"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="55" Width="13" Canvas.Left="472" Canvas.Top="10"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="55" Width="13" Canvas.Left="688" Canvas.Top="10"/>
 
 
 
