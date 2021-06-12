@@ -207,7 +207,17 @@ namespace Pac_man
                     }
                 }
 
-                
+                if ((string)x.Tag == "apple")
+                {
+                    if (pacmanHitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
+                        x.Visibility = Visibility.Hidden;
+                        next.Opacity = 100;
+                    }
+                    ImageBrush appleImage = new ImageBrush();
+                    appleImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/apple.png"));
+                    x.Fill = appleImage;
+                }
 
                 if ((string)x.Tag == "coin")
                 {
@@ -262,7 +272,7 @@ namespace Pac_man
             }
             #endregion
 
-            if (score == 958)
+            if (score == 955)
             {
                 next.Opacity = 100;
             }
