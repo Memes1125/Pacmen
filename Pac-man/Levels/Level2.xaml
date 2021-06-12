@@ -1017,8 +1017,8 @@
 
         <!--#region Ghost-->
 
-        <Rectangle Name="redGuy" Tag="ghost" Width="30" Height="30" Fill="Red" Canvas.Left="354" Canvas.Top="95"  />
-        <Rectangle Name="orangeGuy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="414" Canvas.Top="95" />
+        <Rectangle Name="redGuy" Tag="ghost" Width="30" Height="30" Fill="Red" Canvas.Left="410" Canvas.Top="97"  />
+        <Rectangle Name="orangeGuy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="359" Canvas.Top="96" />
         <Rectangle Name="pinkGuy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="379" Canvas.Top="356" />
 
 
