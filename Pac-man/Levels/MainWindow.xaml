@@ -85,8 +85,7 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="315" Canvas.Top="515" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="340" Canvas.Top="515" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="293" Canvas.Top="515" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="388" Canvas.Top="515" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="368" Canvas.Top="515" />
+        <Rectangle Tag="coinEn" Height="26" Width="31" Fill="Gold" Canvas.Left="375" Canvas.Top="500" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="437" Canvas.Top="515" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="462" Canvas.Top="515" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="415" Canvas.Top="515" />
@@ -100,18 +99,17 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="677" Canvas.Top="515" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="702" Canvas.Top="515" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="655" Canvas.Top="515" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="750" Canvas.Top="515" />
+        <Rectangle Tag="coinEn" Height="32" Width="28" Fill="Gold" Canvas.Left="742" Canvas.Top="493" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="730" Canvas.Top="515" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="293" Canvas.Top="447" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="465" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="491" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="447" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="480" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="515" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="456" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="490" Canvas.Top="425" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="424" Canvas.Top="465" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="424" Canvas.Top="485" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="424" Canvas.Top="447" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="750" Canvas.Top="456" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="750" Canvas.Top="500" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="750" Canvas.Top="480" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="559" Canvas.Top="456" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="584" Canvas.Top="456" />
@@ -152,8 +150,7 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="340" Canvas.Top="319" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="293" Canvas.Top="319" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="368" Canvas.Top="319" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="48" Canvas.Top="319" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="64" Canvas.Top="319" />
+        <Rectangle Tag="coinEn" Height="38" Width="39" Fill="Gold" Canvas.Left="40" Canvas.Top="309" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="99" Canvas.Top="319" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="79" Canvas.Top="319" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="144" Canvas.Top="319" />
@@ -247,7 +244,7 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="270" Canvas.Top="198" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="270" Canvas.Top="213" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="270" Canvas.Top="178" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="48" Canvas.Top="338" />
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="48" Canvas.Top="347" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="48" Canvas.Top="382" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="48" Canvas.Top="397" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="48" Canvas.Top="362" />
@@ -271,10 +268,9 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="211" Canvas.Top="393" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="211" Canvas.Top="408" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="211" Canvas.Top="373" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="730" Canvas.Top="44" />
+        <Rectangle Tag="coinEn" Height="44" Width="39" Fill="Gold" Canvas.Left="722" Canvas.Top="39" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="730" Canvas.Top="88" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="730" Canvas.Top="103" />
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="730" Canvas.Top="68" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="122" Canvas.Top="80" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="140" Canvas.Top="88" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="140" Canvas.Top="113" />

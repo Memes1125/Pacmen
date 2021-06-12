@@ -171,7 +171,7 @@ namespace Pac_man
 
             pacmanHitBox = new Rect(Canvas.GetLeft(pacman), Canvas.GetTop(pacman), pacman.Width, pacman.Height);
 
-
+            #region Tags and hitbox
             foreach (var x in MyCanvas.Children.OfType<Rectangle>())
             {
                 Rect hitBox = new Rect(Canvas.GetLeft(x), Canvas.GetTop(x), x.Width, x.Height);
@@ -207,6 +207,8 @@ namespace Pac_man
                 }
 
 
+              
+
                 if ((string)x.Tag == "coin")
                 {
                     if (pacmanHitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
@@ -214,6 +216,21 @@ namespace Pac_man
                         x.Visibility = Visibility.Hidden;
                         score++;
                     }
+                    ImageBrush coinImage = new ImageBrush();
+                    coinImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/Coin.png"));
+                    x.Fill = coinImage;
+                }
+
+                if((string)x.Tag == "coinEn")
+                {
+                    if(pacmanHitBox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
+                        x.Visibility = Visibility.Hidden;
+                        score += 2;
+                    }
+                    ImageBrush coinImageEn = new ImageBrush();
+                    coinImageEn.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/light.png"));
+                    x.Fill = coinImageEn;
                 }
 
 
@@ -244,17 +261,12 @@ namespace Pac_man
                 }
             }
 
-
+            #endregion
 
             if (score == 282)
             {
-
                 next.Opacity = 100;
-                    
             }
-               
-            
-
         }
 
 

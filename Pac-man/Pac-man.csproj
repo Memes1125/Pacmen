@@ -136,5 +136,9 @@
   <ItemGroup>
     <Resource Include="Images\pixil-frame-8.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\light.png" />
+    <Resource Include="Images\Coin.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
