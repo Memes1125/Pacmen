@@ -74,5 +74,10 @@ namespace Pac_man
         {
 
         }
+
+        private void exit_click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
